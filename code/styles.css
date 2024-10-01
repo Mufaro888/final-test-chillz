@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}.slideshow-container {
+    position: relative;
+    max-width: 50%;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    width: 30%;
+    border-radius: 8px;
+}
+
+.text {
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.navigation {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
